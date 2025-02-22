@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleverBee - Білім платформасы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+        .toggle-btn {
+            cursor: pointer;
+            background: #ffcc00;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        CleverBee - Білім платформасы
+    </header>
+    <nav>
+        <a href="#">Басты бет</a>
+        <a href="#">Курстар</a>
+        <a href="#">Жаңалықтар</a>
+        <a href="#">Байланыс</a>
+    </nav>
+    <div class="container">
+        <h2>Қош келдіңіз!</h2>
+        <p>CleverBee - сіздің үздік білім алу платформаңыз.</p>
+        <button class="toggle-btn" onclick="toggleDarkMode()">Қараңғы режим</button>
+    </div>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
